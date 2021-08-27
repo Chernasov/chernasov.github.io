@@ -101,7 +101,7 @@ section:last-child {
 .about-me {
 	 margin-left: auto;
 	 margin-right: auto;
-	 padding: 16px 48px;
+	 padding: 48px 48px;
 }
 .certificates {
 	 display: flex;
@@ -117,7 +117,7 @@ section:last-child {
 .projects {
 	 margin-left: auto;
 	 margin-right: auto;
-	 padding: 26px 48px;	
+	 padding: 36px 48px;	
 }
 .images {
 	 display: flex;
