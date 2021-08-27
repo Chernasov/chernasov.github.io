@@ -1,0 +1,162 @@
+body {
+	margin: 0;
+	min-height: 100vh;
+	background-color: #ffffff; /*#f1f1f1; */
+	/*display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;*/
+	font-family: Arial, sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	/*color: #ffffff;*/
+}
+.menu-top {
+	background-color: #e0dfdf;
+	position: fixed;
+    top: 0;
+	right: 0;
+	left: 0;
+}
+
+.menu-top-list {
+	display: flex;
+	justify-content: flex-end;
+	
+	list-style-type: none;
+	/*padding-left: 0;
+	margin-top: 0;
+	margin-bottom: 0;*/
+}
+
+.menu-link {
+	
+	 /*font-weight: 700;
+	 font-size: 16px;*/
+     text-decoration: none;
+	 color: #271cdc;
+	 padding-left: 20px;
+	 padding-right: 20px;
+	 margin-left: 40px;
+	 margin-right: 40px;
+}
+.main{
+	 margin-left: auto;
+	 margin-right: auto;
+	 padding: 16px 48px;
+}
+
+
+.my-photo {
+	 float: left;
+	 margin-left: 40px;
+	 margin-right: 80px;
+	 width: 210px;
+}	 
+
+img {
+	 display: block;
+	 width: 100%;
+	 height: auto;
+}
+
+.header {
+	 padding: 56px 48px;
+	
+}
+.header-annot {
+	 font-size: 48px;
+	 margin-left: auto;
+	 margin-right: auto;
+	 width: 70%;
+	 padding: 14px 8px;
+}
+.contact {
+	 padding: 14px 8px;
+}
+.telegram {
+	 color: #271cdc
+}
+.e-mail {
+	 color: #271cdc
+}
+.header-separator {
+	 padding: 28px 48px;
+	 text-align: center;
+	 font-size: 38px;
+}
+.project-annot {
+	 padding: 28px 48px;
+/*	 text-align: center;
+	 font-size: 38px;*/
+	
+}
+section:nth-child(odd) {
+	 background-color: #f1f1f1;
+}
+section:last-child {
+	 padding-bottom: 48px;
+}
+.about-me {
+	 margin-left: auto;
+	 margin-right: auto;
+	 padding: 16px 48px;
+}
+.certificates {
+	 display: flex;
+	 flex-wrap: wrap;
+}
+.certificate {
+	 width: 48%;
+	 padding: 1% 1%;
+}
+.education {
+	 padding: 28px 48px;
+}
+.projects {
+	 margin-left: auto;
+	 margin-right: auto;
+	 padding: 26px 48px;	
+}
+.images {
+	 display: flex;
+	 flex-wrap: wrap;
+}
+.image {
+	 width: 48%;
+	 padding: 3% 1%;
+}
+figure {
+	 margin: 0;
+}
+figcaption {
+	text-align: center;
+	margin-top: 16px;
+}
+
+
+
+.footer {
+	 display: flex;
+	 position: relative;
+	 	 
+	 margin-left: auto;
+	 margin-right: auto;
+	 padding: 16px 48px;
+	 background-color: #e0dfdf;
+	 
+	position: fixed;
+    bottom: 0;
+	right: 0;
+	left: 0;	 
+}
+.menu-down {
+	position: absolute;
+	right: 48px;
+}
+.send-me {
+	 margin-left: auto;
+	 margin-right: auto;
+	 font-size: 32px;
+}
