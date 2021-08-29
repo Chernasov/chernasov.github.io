@@ -1,16 +1,12 @@
 body {
 	margin: 0;
 	min-height: 100vh;
-	background-color: #ffffff; /*#f1f1f1; */
-	/*display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-	align-items: center;*/
+	background-color: #ffffff;
 	font-family: Arial, sans-serif;
 	font-style: normal;
 	font-weight: 400;
 	font-size: 20px;
-	/*color: #ffffff;*/
+	
 }
 .menu-top {
 	background-color: #e0dfdf;
@@ -18,6 +14,7 @@ body {
     top: 0;
 	right: 0;
 	left: 0;
+	
 }
 
 .menu-top-list {
@@ -25,16 +22,11 @@ body {
 	justify-content: flex-end;
 	
 	list-style-type: none;
-	/*padding-left: 0;
-	margin-top: 0;
-	margin-bottom: 0;*/
+
 }
 
 .menu-link {
-	
-	 /*font-weight: 700;
-	 font-size: 16px;*/
-     text-decoration: none;
+	 text-decoration: none;
 	 color: #271cdc;
 	 padding-left: 20px;
 	 padding-right: 20px;
@@ -81,6 +73,9 @@ img {
 .e-mail {
 	 color: #271cdc
 }
+span {
+	font-size: 14px;
+}
 .header-separator {
 	 padding: 28px 48px;
 	 text-align: center;
@@ -88,15 +83,13 @@ img {
 }
 .project-annot {
 	 padding: 28px 48px;
-/*	 text-align: center;
-	 font-size: 38px;*/
+
 	
 }
 section:nth-child(odd) {
 	 background-color: #f1f1f1;
 }
-section:last-child {
-	 padding-bottom: 48px;
+
 }
 .about-me {
 	 margin-left: auto;
@@ -146,10 +139,7 @@ figcaption {
 	 padding: 16px 48px;
 	 background-color: #e0dfdf;
 	 
-	position: fixed;
-    bottom: 0;
-	right: 0;
-	left: 0;	 
+
 }
 .menu-down {
 	position: absolute;
