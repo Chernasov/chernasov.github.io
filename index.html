@@ -40,7 +40,11 @@
 			</div>
 			<div class="header-separator mywork">
 			Избранные работы
-
+			</div>
+			<div class="project-annot">
+				<h3> Выполнен <a href="#diplom-autotesting" class="link">курсовой проект </a> к модулю "Автоматизированное тестирование" </h3>
+				<p> Задачи - закрепление полученных заданий по использованию инструментов автоматизации, паттернов в процессе автоматизации тестирования комплексного сервиса, взаимодействующего с СУБД и API Банка </p>
+				<p> Используемые технологии: Git и GitHub, JUnitJupiter, Java 11, Gradle, Faker, REST-assured, Selenide, Apache Commons, паттерн Page Object, Allure, Docker </p>
 			</div>
 			<div class="project-annot">
 				<h3>  <a href="#trainee" class="link">Стажировка в ООО "Гудт" </a>  </h3>
@@ -71,31 +75,39 @@
 					https://netology.ru/programs/qa-middle </a>) </span> 
 				</p>
 
-				<p> На данный момент пройдено 4 модуля: </p>
+				<p> На данный момент пройдено 5 модулей: </p>
 				<ul>
 					<li> «Введение в тестирование» с сертификатом, </li>
 					<li> «Git — система контроля версий» с сертификатом, </li>
 					<li> «Java для тестировщиков» с сертификатом, </li>
+					<li> «Автоматизированное тестирование» с сертификатом </li>
 					<li> «Бонусный модуль: HTML-верстка: с нуля до первого макета». </li>
 				</ul>
-				<p> Сейчас изучаю модуль «Автоматизированное тестирование», также в плане курса изучение JavaScript. </p>
+				<p> Сейчас изучаю модуль «Основы JavaScript», также в плане курса изучение Автоматизации тестирования веб-интерфейсов. </p>
 			</div>
 			<div class="header-separator certificate-annot">
 				Полученные сертификаты
 			</div>
 			<div class="certificates">
 				<div class="certificate">
-					<img width="240" height="120" src="image/certificate_begin.jpg" alt="Сертификат введение в тестирование">	
-				</div>
+					<img width="240" height="120" src="image/certificate_diplom4mod.jpg" alt="Сертификат AQA">	
+				</div>	
 				<div class="certificate">
-					<img width="240" height="120" src="image/certificate_git.jpg" alt="Сертификат GIT">	
+					<img width="240" height="120" src="image/certificate_AQA.jpg" alt="Курсовая работа AQA">	
+				</div>				
+				<div class="certificate">
+					<img width="240" height="120" src="image/stepik-certificate-SQL.jpg" alt="Сертификат SQL">	
 				</div>
 				<div class="certificate">
 					<img width="240" height="120" src="image/certificate_Java_for_QA.jpg" alt="Сертификат Java">	
 				</div>
 				<div class="certificate">
-					<img width="240" height="120" src="image/stepik-certificate-SQL.jpg" alt="Сертификат SQL">	
-				</div>				
+					<img width="240" height="120" src="image/certificate_git.jpg" alt="Сертификат GIT">	
+				</div>
+				<div class="certificate">
+					<img width="240" height="120" src="image/certificate_begin.jpg" alt="Сертификат введение в тестирование">	
+				</div>
+				
 	<!-- Для будущих блоков
 				<div class="certificate">
 					<img width="240" height="120" src="image/***.jpg" alt="****">	
@@ -112,6 +124,48 @@
 
 			“Инженер-экономист”
 			<div>
+		</section>
+
+		<section id="diplom-autotesting" class="projects">
+			<div class="header-separator project-annot">
+				Курсовой проект к модулю "Автоматизированное тестирование"
+			</div>
+			<div class="project-annot">
+				закрепление полученных заданий по использованию инструментов автоматизации, паттернов
+				в процессе автоматизации тестирования комплексного сервиса, взаимодействующего с СУБД и API Банка
+			</div>
+			<div class="images">
+				<figure class="image">
+					 <img width="240" height="120" src="image/Plan_automat.png" alt="План автоматизации">	
+					 <figcaption>План автоматизации</figcaption>
+				</figure>
+				<figure class="image">
+					<img width="240" height="120" src="image/Screen-Page.png" alt="Использование Page Object">
+					<figcaption>Использование Page Object</figcaption>
+				</figure>
+				<div class="image">
+					<img width="240" height="120" src="image/Report_testing.png" alt="Отчет о тестирование">	
+				</div>
+				<div class="image">
+					<img width="240" height="120" src="image/AllureReport.png" alt="Отчет о тестировании">	
+				</div>				
+			</div>
+			<div class="project-annot">
+				<p> Использование </p>
+				<ul>
+					<li> паттерн Page Object – для более гибкого взаимодействия с SUT и сокрытия внутреннего устройства определённой страницы 
+						или её виджетов за логическим интерфейсом взаимодействия </li> 
+					<li> REST-assured – для тестирования API </li>
+					<li> Selenide – для тестирования GUI </li>
+					<li> Apache Commons – для запроса к БД </li>
+					<li> Docker - для развертывания БД</li>
+				</ul>
+				<p>	для тестирования веб-сервиса. Дополнительно реализована возможность запустить в контейнерах две базы данных (Mysql и Postgres)
+				и параметризировать запуск приложения и тестов, передавая в параметрах разные конфигурации для подключения к любой из запущенных баз данных. 
+				Проект расположен на <a href="https://github.com/Chernasov/AQA-diplom" target="_blank" class="link">GitHub </a></p>
+				<p> Проект выполнялся самостоятельно, рецензировался преподавателями Нетологии. </p>
+				<p> Результатом выполнения проекта стало закрепление практических знаний по автоматизации тестирования, получение зачета </p>
+			</div>
 		</section>
 		
 		<section id="trainee" class="projects">
