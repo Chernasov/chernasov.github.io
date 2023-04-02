@@ -51,9 +51,9 @@
 				<p> Используемые технологии: Git и GitHub, JUnitJupiter, Java 11, Gradle, Faker, REST-assured, Selenide, Apache Commons, паттерн Page Object, Allure, Docker </p>
 			</div>
 			<div class="project-annot">
-				<h3> Выполнен <a href="#introduction-to-testing" class="link">курсовой проект </a> к модулю "Введение в тестирование" </h3>
-				<p> Задачи - закрепление полученных знаний по созданию чек-листов, тест-кейсов, баг-репортов, использованию DevTools </p>
-				<p> Используемые технологии: ручное тестирование, DevTools </p>
+				<h3> Выполнен <a href="#testing-API" class="link"> проект </a> по тестированию API с помощью Postman </h3>
+				<p> Задачи - закрепление полученных знаний по тестированию API, использованию Postman </p>
+				<p> Используемые технологии: ручное тестирование, Postman </p>
 			</div>
 				<div class="project-annot">
 				<h3> Написан этот <a href="#creating-website" class="link"> сайт </a></h3>
@@ -213,33 +213,37 @@
 		
 	
 		
-		<section id="introduction-to-testing" class="projects">
+		<section id="testing-API" class="projects">
 			<div class="header-separator project-annot">
-				Курсовой проект к модулю "Введение в тестирование"
+				Тестирование API с помощью Postman
 			</div>
 			<div class="project-annot">
-				Закрепление полученных знаний по созданию чек-листов, тест-кейсов, баг-репортов, использованию DevTools
+				Закрепление полученных знаний по тестированию API
 			</div>
 			<div class="images">
 				<figure class="image">
-					 <img width="240" height="120" src="image/Screen-begin.jpg" alt="До изменений">	
-					 <figcaption>Обычная цена</figcaption>
+					 <img width="240" height="120" src="image/Create-collection.png" alt="Коллекция">	
+					 <figcaption>Создание коллекции с переменными</figcaption>
 				</figure>
 				<figure class="image">
-					<img width="240" height="120" src="image/Screen-10.jpg" alt="После изменений">
-					<figcaption>Тестовая цена</figcaption>
+					<img width="240" height="120" src="image/set-value.png" alt="Присвоение переменной">
+					<figcaption>Назначение переменной из ответа</figcaption>
 				</figure>
-				<div class="image">
-					<img width="240" height="120" src="image/Screen-devtools-network-headers.jpg" alt="Использование DevTools-Network-headers">	
-				</div>
-				<div class="image">
-					<img width="240" height="120" src="image/Screen-devtools-network-preview.jpg" alt="Использование DevTools-Network-preview">	
-				</div>				
+				<figure class="image">
+					<img width="240" height="120" src="image/put-user.png" alt="Изменение юзера, использование случайных значений">	
+					<figcaption>Изменение юзера, использование случайных значений для поля "email"</figcaption>
+				</figure>
+				<figure class="image">
+					<img width="240" height="120" src="image/Del-user.png" alt="Удаление данных">	
+					<figcaption>Удаление юзера</figcaption>
+				</figure>
 			</div>
 			<div class="project-annot">
-				<p> Использование DevTools для тестирования верстки страницы карточки товара с максимальной ценой, поиска запросов на сервер. </p>
-				<p> Проект выполнялся самостоятельно, рецензировался преподавателями Нетологии. </p>
-				<p> Результатом выполнения проекта стало закрепление практических знаний в ручном тестировании, получение зачета </p>
+				<p> Создана коллекция для CRUD-операций, в коллекции используются переменные для токена, имени файла, отбора Id созданного юзера. </p>
+				<p> После создания юзера выполняется скрипт для присвоения переменной "user_id" id созданного юзера. </p>
+				<p> При выполнении дальнейших операций по чтению, изменению и удалению юзера используется переменная.</p>
+				<p> Также при создании и изменении юзера для поля "email" используется генерация случайных значений.</p>
+				<p> Результатом выполнения проекта стало закрепление практических знаний в тестировании API. </p>
 			</div>
 		</section>
 		
